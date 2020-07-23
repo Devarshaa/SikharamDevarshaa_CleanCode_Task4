@@ -1,7 +1,8 @@
 package CleanCode.CleanCode;
-import java.util.Scanner;
+/*
+ * As I haven't found an alternative to print stmt other than logging, I decided to use print herre and loging in next task
+ */
 public class Main {
-	Scanner s = new Scanner(System.in);
 	public void interest(float p,float t,float r,int type)
 	{
 		Interest I = new Interest(p,t,r);
